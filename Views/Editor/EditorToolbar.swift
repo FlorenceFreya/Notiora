@@ -1,6 +1,6 @@
 //
 //  EditorToolbar.swift
-//  MemoirPro
+//  Notiora
 //
 
 import SwiftUI

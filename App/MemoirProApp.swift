@@ -1,6 +1,6 @@
 //
-//  MemoirProApp.swift
-//  MemoirPro
+//  NotioraApp.swift
+//  Notiora
 //
 
 import SwiftUI
@@ -8,7 +8,7 @@ import SwiftData
 
 
 @main
-struct MemoirProApp: App {
+struct NotioraApp: App {
 
 
     // MARK: - 外观模式

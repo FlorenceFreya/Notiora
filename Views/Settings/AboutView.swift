@@ -1,6 +1,6 @@
 //
 //  AboutView.swift
-//  MemoirPro
+//  Notiora
 //
 
 import SwiftUI
@@ -37,7 +37,7 @@ struct AboutView: View {
                         }
 
 
-                    Text("MemoirPro")
+                    Text("Notiora")
                         .font(.title)
                         .fontWeight(.bold)
 
@@ -96,10 +96,10 @@ struct AboutView: View {
 
             // MARK: 介绍
 
-            Section("关于 MemoirPro") {
+            Section("关于 Notiora") {
 
                 Text("""
-MemoirPro 是一个专注于记录生活的应用。
+Notiora 是一个专注于记录生活的应用。
 
 文字、图片、视频，
 都可以成为未来珍贵的回忆。
@@ -123,7 +123,7 @@ MemoirPro 是一个专注于记录生活的应用。
 
             Section {
 
-                Text("© 2026 MemoirPro")
+                Text("© 2026 Notiora")
                     .frame(maxWidth: .infinity)
                     .foregroundStyle(.secondary)
 
@@ -145,14 +145,14 @@ MemoirPro 是一个专注于记录生活的应用。
         } message: {
 
             Text("""
-欢迎来到 MemoirPro 2.0 Beta！
+欢迎来到 Notiora 2.0 Beta！
 
 感谢参与测试 ❤️
 
 愿每一篇记录，
 都成为未来值得珍藏的回忆。
 
-—— MemoirPro
+—— Notiora
 """)
 
         }

@@ -1,6 +1,6 @@
 //
 //  Journal.swift
-//  MemoirPro
+//  Notiora
 //
 
 import Foundation

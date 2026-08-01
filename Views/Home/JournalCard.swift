@@ -1,6 +1,6 @@
 //
 //  JournalCard.swift
-//  MemoirPro
+//  Notiora
 //
 
 import SwiftUI

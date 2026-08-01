@@ -55,6 +55,7 @@
 		56672C83300776CE005C27D6 /* VideoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPicker.swift; sourceTree = "<group>"; };
 		56672C84300776D8005C27D6 /* AttachmentGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentGrid.swift; sourceTree = "<group>"; };
 		56672C86300777C5005C27D6 /* FileStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStorage.swift; sourceTree = "<group>"; };
+		567EDDDB301DE4E00095C1F2 /* MemoirPro.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = MemoirPro.xctestplan; sourceTree = "<group>"; };
 		5691A1AD3002337A00739EAD /* MemoirProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoirProApp.swift; sourceTree = "<group>"; };
 		5691A1AE3002339300739EAD /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
 		5691A1AF300233AD00739EAD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -77,21 +78,21 @@
 		56C9CA54300F613800173093 /* SidebarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarItem.swift; sourceTree = "<group>"; };
 		56C9CA56300F614F00173093 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 		56D2D29B3004DDDF00C2A04E /* SwipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeCell.swift; sourceTree = "<group>"; };
-		56E4343B3006305000EC4DCE /* MemoirPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoirPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		56E4343C3006305000EC4DCE /* MemoirProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoirProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		56E4343D3006305000EC4DCE /* MemoirProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoirProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56E4343B3006305000EC4DCE /* Notiora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notiora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56E4343C3006305000EC4DCE /* NotioraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotioraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56E4343D3006305000EC4DCE /* NotioraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotioraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56E6B695300E0EDD00A7343A /* AppearanceSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceSettingsView.swift; sourceTree = "<group>"; };
 		56E6B697300E0EEC00A7343A /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		56E6B699300E0EF900A7343A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		5691A1943002324000739EAD /* Exceptions for "MemoirPro" folder in "MemoirPro" target */ = {
+		5691A1943002324000739EAD /* Exceptions for "MemoirPro" folder in "Notiora" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 5691A1703002323B00739EAD /* MemoirPro */;
+			target = 5691A1703002323B00739EAD /* Notiora */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -99,7 +100,7 @@
 		5691A1733002323B00739EAD /* MemoirPro */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				5691A1943002324000739EAD /* Exceptions for "MemoirPro" folder in "MemoirPro" target */,
+				5691A1943002324000739EAD /* Exceptions for "MemoirPro" folder in "Notiora" target */,
 			);
 			path = MemoirPro;
 			sourceTree = "<group>";
@@ -145,7 +146,8 @@
 		5691A1683002323B00739EAD = {
 			isa = PBXGroup;
 			children = (
-				56A0D21F3010BAF500A835B9 /* Utilities */,
+				567EDDDB301DE4E00095C1F2 /* MemoirPro.xctestplan */,
+				56A0D21F3010BAF500A835B9 /* Theme */,
 				5691A1A9300232D100739EAD /* Resources */,
 				5691A1A7300232B300739EAD /* Services */,
 				5691A1A33002329000739EAD /* Components */,
@@ -155,9 +157,9 @@
 				5691A1733002323B00739EAD /* MemoirPro */,
 				5691A1853002324000739EAD /* MemoirProTests */,
 				5691A18F3002324000739EAD /* MemoirProUITests */,
-				56E4343B3006305000EC4DCE /* MemoirPro.app */,
-				56E4343C3006305000EC4DCE /* MemoirProTests.xctest */,
-				56E4343D3006305000EC4DCE /* MemoirProUITests.xctest */,
+				56E4343B3006305000EC4DCE /* Notiora.app */,
+				56E4343C3006305000EC4DCE /* NotioraTests.xctest */,
+				56E4343D3006305000EC4DCE /* NotioraUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -280,20 +282,20 @@
 			path = Media;
 			sourceTree = "<group>";
 		};
-		56A0D21F3010BAF500A835B9 /* Utilities */ = {
+		56A0D21F3010BAF500A835B9 /* Theme */ = {
 			isa = PBXGroup;
 			children = (
 				56A0D2203010BB0200A835B9 /* ThemeManager.swift */,
 			);
-			path = Utilities;
+			path = Theme;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5691A1703002323B00739EAD /* MemoirPro */ = {
+		5691A1703002323B00739EAD /* Notiora */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5691A1953002324000739EAD /* Build configuration list for PBXNativeTarget "MemoirPro" */;
+			buildConfigurationList = 5691A1953002324000739EAD /* Build configuration list for PBXNativeTarget "Notiora" */;
 			buildPhases = (
 				5691A16D3002323B00739EAD /* Sources */,
 				5691A16E3002323B00739EAD /* Frameworks */,
@@ -306,17 +308,17 @@
 			fileSystemSynchronizedGroups = (
 				5691A1733002323B00739EAD /* MemoirPro */,
 			);
-			name = MemoirPro;
+			name = Notiora;
 			packageProductDependencies = (
 				56E433EC3006297800EC4DCE /* SwipeActions */,
 			);
 			productName = MemoirPro;
-			productReference = 56E4343B3006305000EC4DCE /* MemoirPro.app */;
+			productReference = 56E4343B3006305000EC4DCE /* Notiora.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5691A1813002324000739EAD /* MemoirProTests */ = {
+		5691A1813002324000739EAD /* NotioraTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5691A19A3002324000739EAD /* Build configuration list for PBXNativeTarget "MemoirProTests" */;
+			buildConfigurationList = 5691A19A3002324000739EAD /* Build configuration list for PBXNativeTarget "NotioraTests" */;
 			buildPhases = (
 				5691A17E3002324000739EAD /* Sources */,
 				5691A17F3002324000739EAD /* Frameworks */,
@@ -330,16 +332,16 @@
 			fileSystemSynchronizedGroups = (
 				5691A1853002324000739EAD /* MemoirProTests */,
 			);
-			name = MemoirProTests;
+			name = NotioraTests;
 			packageProductDependencies = (
 			);
 			productName = MemoirProTests;
-			productReference = 56E4343C3006305000EC4DCE /* MemoirProTests.xctest */;
+			productReference = 56E4343C3006305000EC4DCE /* NotioraTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5691A18B3002324000739EAD /* MemoirProUITests */ = {
+		5691A18B3002324000739EAD /* NotioraUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5691A19D3002324000739EAD /* Build configuration list for PBXNativeTarget "MemoirProUITests" */;
+			buildConfigurationList = 5691A19D3002324000739EAD /* Build configuration list for PBXNativeTarget "NotioraUITests" */;
 			buildPhases = (
 				5691A1883002324000739EAD /* Sources */,
 				5691A1893002324000739EAD /* Frameworks */,
@@ -353,11 +355,11 @@
 			fileSystemSynchronizedGroups = (
 				5691A18F3002324000739EAD /* MemoirProUITests */,
 			);
-			name = MemoirProUITests;
+			name = NotioraUITests;
 			packageProductDependencies = (
 			);
 			productName = MemoirProUITests;
-			productReference = 56E4343D3006305000EC4DCE /* MemoirProUITests.xctest */;
+			productReference = 56E4343D3006305000EC4DCE /* NotioraUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -383,7 +385,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5691A16C3002323B00739EAD /* Build configuration list for PBXProject "MemoirPro" */;
+			buildConfigurationList = 5691A16C3002323B00739EAD /* Build configuration list for PBXProject "Notiora" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -400,9 +402,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5691A1703002323B00739EAD /* MemoirPro */,
-				5691A1813002324000739EAD /* MemoirProTests */,
-				5691A18B3002324000739EAD /* MemoirProUITests */,
+				5691A1703002323B00739EAD /* Notiora */,
+				5691A1813002324000739EAD /* NotioraTests */,
+				5691A18B3002324000739EAD /* NotioraUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -480,12 +482,12 @@
 /* Begin PBXTargetDependency section */
 		5691A1843002324000739EAD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5691A1703002323B00739EAD /* MemoirPro */;
+			target = 5691A1703002323B00739EAD /* Notiora */;
 			targetProxy = 5691A1833002324000739EAD /* PBXContainerItemProxy */;
 		};
 		5691A18E3002324000739EAD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5691A1703002323B00739EAD /* MemoirPro */;
+			target = 5691A1703002323B00739EAD /* Notiora */;
 			targetProxy = 5691A18D3002324000739EAD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -498,11 +500,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MemoirPro/MemoirPro.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = J5JB4RLNG5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MemoirPro/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -512,9 +515,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-0260206-Pro.MemoirPro";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Florence.Notiora;
+				PRODUCT_NAME = Notiora;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -532,11 +535,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MemoirPro/MemoirPro.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = J5JB4RLNG5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MemoirPro/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -546,9 +550,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-0260206-Pro.MemoirPro";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Florence.Notiora;
+				PRODUCT_NAME = Notiora;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -617,6 +621,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = Notiora;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -674,6 +679,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = Notiora;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
@@ -698,7 +704,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemoirPro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MemoirPro";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notiora.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Notiora";
 			};
 			name = Debug;
 		};
@@ -720,7 +726,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemoirPro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MemoirPro";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notiora.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Notiora";
 			};
 			name = Release;
 		};
@@ -767,7 +773,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5691A16C3002323B00739EAD /* Build configuration list for PBXProject "MemoirPro" */ = {
+		5691A16C3002323B00739EAD /* Build configuration list for PBXProject "Notiora" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5691A1983002324000739EAD /* Debug */,
@@ -776,7 +782,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5691A1953002324000739EAD /* Build configuration list for PBXNativeTarget "MemoirPro" */ = {
+		5691A1953002324000739EAD /* Build configuration list for PBXNativeTarget "Notiora" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5691A1963002324000739EAD /* Debug */,
@@ -785,7 +791,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5691A19A3002324000739EAD /* Build configuration list for PBXNativeTarget "MemoirProTests" */ = {
+		5691A19A3002324000739EAD /* Build configuration list for PBXNativeTarget "NotioraTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5691A19B3002324000739EAD /* Debug */,
@@ -794,7 +800,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5691A19D3002324000739EAD /* Build configuration list for PBXNativeTarget "MemoirProUITests" */ = {
+		5691A19D3002324000739EAD /* Build configuration list for PBXNativeTarget "NotioraUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5691A19E3002324000739EAD /* Debug */,

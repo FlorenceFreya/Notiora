@@ -1,6 +1,6 @@
 //
 //  HomeView.swift
-//  MemoirPro
+//  Notiora
 //
 
 import SwiftUI

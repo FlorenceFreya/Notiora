@@ -1,6 +1,6 @@
 //
 //  ImageBlockView.swift
-//  MemoirPro
+//  Notiora
 //
 
 import SwiftUI

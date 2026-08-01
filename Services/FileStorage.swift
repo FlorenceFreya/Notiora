@@ -1,6 +1,6 @@
 //
 //  FileStorage.swift
-//  MemoirPro
+//  Notiora
 //
 
 import Foundation

@@ -1,6 +1,6 @@
 //
 //  JournalBlock.swift
-//  MemoirPro
+//  Notiora
 //
 
 import Foundation

@@ -1,6 +1,6 @@
 //
 //  SidebarView.swift
-//  MemoirPro
+//  Notiora
 //
 
 import SwiftUI
@@ -32,7 +32,7 @@ struct SidebarView: View {
 
         }
 
-        .navigationTitle("MemoirPro")
+        .navigationTitle("Notiora")
 
 
     }

@@ -1,6 +1,6 @@
 //
 //  ThemeManager.swift
-//  MemoirPro
+//  Notiora
 //
 
 import SwiftUI

@@ -1,6 +1,6 @@
 //
 //  JournalEditorView.swift
-//  MemoirPro
+//  Notiora
 //
 
 import SwiftUI

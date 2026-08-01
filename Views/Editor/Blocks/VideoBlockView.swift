@@ -1,6 +1,6 @@
 //
 //  VideoBlockView.swift
-//  MemoirPro
+//  Notiora
 //
 
 import SwiftUI

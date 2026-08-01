@@ -1,13 +1,13 @@
 //
-//  MemoirProUITestsLaunchTests.swift
-//  MemoirProUITests
+//  NotioraUITestsLaunchTests.swift
+//  NotioraUITests
 //
 //  Created by 方子谦 on 7/11/26.
 //
 
 import XCTest
 
-final class MemoirProUITestsLaunchTests: XCTestCase {
+final class NotioraUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

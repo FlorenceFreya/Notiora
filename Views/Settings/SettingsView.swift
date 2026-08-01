@@ -1,6 +1,6 @@
 //
 //  SettingsView.swift
-//  MemoirPro
+//  Notiora
 //
 
 import SwiftUI

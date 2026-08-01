@@ -1,6 +1,6 @@
 //
 //  SidebarItem.swift
-//  MemoirPro
+//  Notiora
 //
 
 import Foundation

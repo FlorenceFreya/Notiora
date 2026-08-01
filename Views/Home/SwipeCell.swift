@@ -1,6 +1,6 @@
 //
 //  SwipeCell.swift
-//  MemoirPro
+//  Notiora
 //
 
 import SwiftUI
