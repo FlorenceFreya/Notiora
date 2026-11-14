@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		5603B141300CC44A009BD03C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5603B140300CC440009BD03C /* Movie.swift */; };
 		56672C87300777C9005C27D6 /* FileStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56672C86300777C5005C27D6 /* FileStorage.swift */; };
-		5691A1B03002345C00739EAD /* MemoirProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5691A1AD3002337A00739EAD /* MemoirProApp.swift */; };
+		5691A1B03002345C00739EAD /* NotioraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5691A1AD3002337A00739EAD /* NotioraApp.swift */; };
 		5691A1B1300234CC00739EAD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5691A1AF300233AD00739EAD /* HomeView.swift */; };
 		5691A1B2300234D300739EAD /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5691A1AE3002339300739EAD /* Journal.swift */; };
 		5691A1B4300235B400739EAD /* JournalEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5691A1B3300235AF00739EAD /* JournalEditorView.swift */; };
@@ -55,8 +55,8 @@
 		56672C83300776CE005C27D6 /* VideoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPicker.swift; sourceTree = "<group>"; };
 		56672C84300776D8005C27D6 /* AttachmentGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentGrid.swift; sourceTree = "<group>"; };
 		56672C86300777C5005C27D6 /* FileStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStorage.swift; sourceTree = "<group>"; };
-		567EDDDB301DE4E00095C1F2 /* MemoirPro.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = MemoirPro.xctestplan; sourceTree = "<group>"; };
-		5691A1AD3002337A00739EAD /* MemoirProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoirProApp.swift; sourceTree = "<group>"; };
+		567EDDDB301DE4E00095C1F2 /* Notiora.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Notiora.xctestplan; sourceTree = "<group>"; };
+		5691A1AD3002337A00739EAD /* NotioraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotioraApp.swift; sourceTree = "<group>"; };
 		5691A1AE3002339300739EAD /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
 		5691A1AF300233AD00739EAD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		5691A1B3300235AF00739EAD /* JournalEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEditorView.swift; sourceTree = "<group>"; };
@@ -105,14 +105,14 @@
 			path = MemoirPro;
 			sourceTree = "<group>";
 		};
-		5691A1853002324000739EAD /* MemoirProTests */ = {
+		5691A1853002324000739EAD /* NotioraTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MemoirProTests;
+			path = NotioraTests;
 			sourceTree = "<group>";
 		};
-		5691A18F3002324000739EAD /* MemoirProUITests */ = {
+		5691A18F3002324000739EAD /* NotioraUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MemoirProUITests;
+			path = NotioraUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -146,7 +146,7 @@
 		5691A1683002323B00739EAD = {
 			isa = PBXGroup;
 			children = (
-				567EDDDB301DE4E00095C1F2 /* MemoirPro.xctestplan */,
+				567EDDDB301DE4E00095C1F2 /* Notiora.xctestplan */,
 				56A0D21F3010BAF500A835B9 /* Theme */,
 				5691A1A9300232D100739EAD /* Resources */,
 				5691A1A7300232B300739EAD /* Services */,
@@ -155,8 +155,8 @@
 				5691A1A13002327500739EAD /* Models */,
 				5691A1A03002325000739EAD /* App */,
 				5691A1733002323B00739EAD /* MemoirPro */,
-				5691A1853002324000739EAD /* MemoirProTests */,
-				5691A18F3002324000739EAD /* MemoirProUITests */,
+				5691A1853002324000739EAD /* NotioraTests */,
+				5691A18F3002324000739EAD /* NotioraUITests */,
 				56E4343B3006305000EC4DCE /* Notiora.app */,
 				56E4343C3006305000EC4DCE /* NotioraTests.xctest */,
 				56E4343D3006305000EC4DCE /* NotioraUITests.xctest */,
@@ -166,7 +166,7 @@
 		5691A1A03002325000739EAD /* App */ = {
 			isa = PBXGroup;
 			children = (
-				5691A1AD3002337A00739EAD /* MemoirProApp.swift */,
+				5691A1AD3002337A00739EAD /* NotioraApp.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -312,7 +312,7 @@
 			packageProductDependencies = (
 				56E433EC3006297800EC4DCE /* SwipeActions */,
 			);
-			productName = MemoirPro;
+			productName = Notiora;
 			productReference = 56E4343B3006305000EC4DCE /* Notiora.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -330,12 +330,12 @@
 				5691A1843002324000739EAD /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				5691A1853002324000739EAD /* MemoirProTests */,
+				5691A1853002324000739EAD /* NotioraTests */,
 			);
 			name = NotioraTests;
 			packageProductDependencies = (
 			);
-			productName = MemoirProTests;
+			productName = NotioraTests;
 			productReference = 56E4343C3006305000EC4DCE /* NotioraTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -353,12 +353,12 @@
 				5691A18E3002324000739EAD /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				5691A18F3002324000739EAD /* MemoirProUITests */,
+				5691A18F3002324000739EAD /* NotioraUITests */,
 			);
 			name = NotioraUITests;
 			packageProductDependencies = (
 			);
-			productName = MemoirProUITests;
+			productName = NotioraUITests;
 			productReference = 56E4343D3006305000EC4DCE /* NotioraUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
@@ -451,7 +451,7 @@
 				5691A1BA300235D200739EAD /* TitleField.swift in Sources */,
 				5691A1B4300235B400739EAD /* JournalEditorView.swift in Sources */,
 				5691A1D130023C4800739EAD /* ImageBlockView.swift in Sources */,
-				5691A1B03002345C00739EAD /* MemoirProApp.swift in Sources */,
+				5691A1B03002345C00739EAD /* NotioraApp.swift in Sources */,
 				56672C87300777C9005C27D6 /* FileStorage.swift in Sources */,
 				5691A1CF30023C3800739EAD /* TextBlockView.swift in Sources */,
 				5691A1B2300234D300739EAD /* Journal.swift in Sources */,
@@ -498,7 +498,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MemoirPro/MemoirPro.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MemoirPro/Notiora.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = J5JB4RLNG5;
@@ -533,7 +533,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MemoirPro/MemoirPro.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MemoirPro/Notiora.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = J5JB4RLNG5;
@@ -696,7 +696,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-0260206-Pro.MemoirProTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "-0260206-Pro.NotioraTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -718,7 +718,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-0260206-Pro.MemoirProTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "-0260206-Pro.NotioraTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -738,7 +738,7 @@
 				DEVELOPMENT_TEAM = J5JB4RLNG5;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-0260206-Pro.MemoirProUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "-0260206-Pro.NotioraUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -746,7 +746,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MemoirPro;
+				TEST_TARGET_NAME = Notiora;
 			};
 			name = Debug;
 		};
@@ -758,7 +758,7 @@
 				DEVELOPMENT_TEAM = J5JB4RLNG5;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-0260206-Pro.MemoirProUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "-0260206-Pro.NotioraUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -766,7 +766,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MemoirPro;
+				TEST_TARGET_NAME = Notiora;
 			};
 			name = Release;
 		};
